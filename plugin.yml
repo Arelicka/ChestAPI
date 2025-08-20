@@ -1,0 +1,5 @@
+name: ChestAPI
+main: ChestAPI\ChestAPI
+api: 1.2.0
+version: final
+author: Arelice
