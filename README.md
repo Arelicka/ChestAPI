@@ -61,9 +61,9 @@ $this->getScheduler()->scheduleDelayedTask(new \pocketmine\scheduler\ClosureTask
 
 - Menu::setItem(int $slot, Item $item, ?Closure $closure = null) — set an item in a slot (with optional click handler)
 
-- ChestAPI::sendMenu(Player $player, Menu $menu) — send the chest block and tile to a player
+- ChestAPI::sendMenu(Player $player, IMenu $menu) — send the chest block and tile to a player
 
-- ChestAPI::openMenu(Player $player, Menu $menu) — open chest inventory window (for good performance without window auto-close recommended to use delayed ClosureTask after 10 ticks)
+- ChestAPI::openMenu(Player $player, IMenu $menu) — open chest inventory window (for good performance without window auto-close recommended to use delayed ClosureTask after 10 ticks)
 
 
 ## Requirements
