@@ -20,7 +20,7 @@ use pocketmine\Player;
 use function array_slice;
 use function count;
 
-class DoubleChestInventory extends \ChestAPI\inventory\ChestInventory{
+class DoubleChestInventory extends ChestInventory{
 	/** @var ChestInventory */
 	private ChestInventory $left;
 	/** @var ChestInventory */
